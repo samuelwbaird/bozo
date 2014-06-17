@@ -1,11 +1,7 @@
-/*
- *  image_functions.m
- *  bozo
- *
- *  Created by Sam on 12/03/12.
- *  Copyright 2012 Private. All rights reserved.
- *
- */
+// bozo - image functions
+// 
+// Copyright (c) 2014 Samuel Baird
+// refer to LICENCE (MIT)
 
 #include <CoreFoundation/CoreFoundation.h>
 #include <Quartz/Quartz.h>

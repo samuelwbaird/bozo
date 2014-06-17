@@ -1,13 +1,7 @@
-/*
- *  bozo
- *
- *  Just whatever I want in a lua module for images and utilities on mac
- *
- *  Created by Samuel Baird on 18/11/10.
- *  Copyright 2010 Samuel Baird. All rights reserved.
- *
- */
-
+// bozo - file functions
+// 
+// Copyright (c) 2014 Samuel Baird
+// refer to LICENCE (MIT)
 
 #include <CoreFoundation/CoreFoundation.h>
 #include <Foundation/Foundation.h>

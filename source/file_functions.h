@@ -1,17 +1,10 @@
-/*
- *  bozo
- *
- *  Just whatever I want in a lua module for images and utilities on mac
- *
- *  Created by Samuel Baird on 18/11/10.
- *  Copyright 2010 Samuel Baird. All rights reserved.
- *
- */
-
+// bozo - file functions
+// 
+// Copyright (c) 2014 Samuel Baird
+// refer to LICENCE (MIT)
 
 #include "lua.h"
 #include "lauxlib.h"
 #include "lualib.h"
 
-// file functions
 int files(lua_State *L);
