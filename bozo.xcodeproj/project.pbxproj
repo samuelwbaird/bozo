@@ -1,0 +1,322 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2273532B12953BA800DC6E15 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2273532A12953BA800DC6E15 /* Cocoa.framework */; };
+		2273532D12953BA800DC6E15 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2273532C12953BA800DC6E15 /* CoreFoundation.framework */; };
+		2273532F12953BA800DC6E15 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2273532E12953BA800DC6E15 /* Quartz.framework */; };
+		2279421B19505558004D4B2B /* lauxlib.h in Headers */ = {isa = PBXBuildFile; fileRef = 2279421619505558004D4B2B /* lauxlib.h */; };
+		2279421C19505558004D4B2B /* lua.h in Headers */ = {isa = PBXBuildFile; fileRef = 2279421719505558004D4B2B /* lua.h */; };
+		2279421D19505558004D4B2B /* lua.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2279421819505558004D4B2B /* lua.hpp */; };
+		2279421E19505558004D4B2B /* luaconf.h in Headers */ = {isa = PBXBuildFile; fileRef = 2279421919505558004D4B2B /* luaconf.h */; };
+		2279421F19505558004D4B2B /* lualib.h in Headers */ = {isa = PBXBuildFile; fileRef = 2279421A19505558004D4B2B /* lualib.h */; };
+		22DC012F195053CA009A394F /* bozo.h in Headers */ = {isa = PBXBuildFile; fileRef = 22DC0129195053CA009A394F /* bozo.h */; };
+		22DC0130195053CA009A394F /* bozo.m in Sources */ = {isa = PBXBuildFile; fileRef = 22DC012A195053CA009A394F /* bozo.m */; };
+		22DC0131195053CA009A394F /* file_functions.h in Headers */ = {isa = PBXBuildFile; fileRef = 22DC012B195053CA009A394F /* file_functions.h */; };
+		22DC0132195053CA009A394F /* file_functions.m in Sources */ = {isa = PBXBuildFile; fileRef = 22DC012C195053CA009A394F /* file_functions.m */; };
+		22DC0133195053CA009A394F /* image_functions.h in Headers */ = {isa = PBXBuildFile; fileRef = 22DC012D195053CA009A394F /* image_functions.h */; };
+		22DC0134195053CA009A394F /* image_functions.m in Sources */ = {isa = PBXBuildFile; fileRef = 22DC012E195053CA009A394F /* image_functions.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		227353CC12953C3800DC6E15 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/local/lib/lua/5.1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2273532A12953BA800DC6E15 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		2273532C12953BA800DC6E15 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		2273532E12953BA800DC6E15 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
+		2279421619505558004D4B2B /* lauxlib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lauxlib.h; sourceTree = "<group>"; };
+		2279421719505558004D4B2B /* lua.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lua.h; sourceTree = "<group>"; };
+		2279421819505558004D4B2B /* lua.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = lua.hpp; sourceTree = "<group>"; };
+		2279421919505558004D4B2B /* luaconf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = luaconf.h; sourceTree = "<group>"; };
+		2279421A19505558004D4B2B /* lualib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lualib.h; sourceTree = "<group>"; };
+		22DC0129195053CA009A394F /* bozo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bozo.h; sourceTree = "<group>"; };
+		22DC012A195053CA009A394F /* bozo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = bozo.m; sourceTree = "<group>"; };
+		22DC012B195053CA009A394F /* file_functions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = file_functions.h; sourceTree = "<group>"; };
+		22DC012C195053CA009A394F /* file_functions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = file_functions.m; sourceTree = "<group>"; };
+		22DC012D195053CA009A394F /* image_functions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = image_functions.h; sourceTree = "<group>"; };
+		22DC012E195053CA009A394F /* image_functions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = image_functions.m; sourceTree = "<group>"; };
+		D2AAC0630554660B00DB518D /* bozo.so */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = bozo.so; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D289988505E68E00004EDB86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2273532B12953BA800DC6E15 /* Cocoa.framework in Frameworks */,
+				2273532D12953BA800DC6E15 /* CoreFoundation.framework in Frameworks */,
+				2273532F12953BA800DC6E15 /* Quartz.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* ImageData */ = {
+			isa = PBXGroup;
+			children = (
+				2279421419505558004D4B2B /* dependencies */,
+				22DC0128195053CA009A394F /* source */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+				227353CB12953C3800DC6E15 /* Frameworks */,
+			);
+			name = ImageData;
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC0630554660B00DB518D /* bozo.so */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		227353CB12953C3800DC6E15 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2273532A12953BA800DC6E15 /* Cocoa.framework */,
+				2273532C12953BA800DC6E15 /* CoreFoundation.framework */,
+				2273532E12953BA800DC6E15 /* Quartz.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2279421419505558004D4B2B /* dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				2279421519505558004D4B2B /* lua */,
+			);
+			path = dependencies;
+			sourceTree = "<group>";
+		};
+		2279421519505558004D4B2B /* lua */ = {
+			isa = PBXGroup;
+			children = (
+				2279421619505558004D4B2B /* lauxlib.h */,
+				2279421719505558004D4B2B /* lua.h */,
+				2279421819505558004D4B2B /* lua.hpp */,
+				2279421919505558004D4B2B /* luaconf.h */,
+				2279421A19505558004D4B2B /* lualib.h */,
+			);
+			path = lua;
+			sourceTree = "<group>";
+		};
+		22DC0128195053CA009A394F /* source */ = {
+			isa = PBXGroup;
+			children = (
+				22DC0129195053CA009A394F /* bozo.h */,
+				22DC012A195053CA009A394F /* bozo.m */,
+				22DC012B195053CA009A394F /* file_functions.h */,
+				22DC012C195053CA009A394F /* file_functions.m */,
+				22DC012D195053CA009A394F /* image_functions.h */,
+				22DC012E195053CA009A394F /* image_functions.m */,
+			);
+			path = source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC0600554660B00DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2279421B19505558004D4B2B /* lauxlib.h in Headers */,
+				22DC012F195053CA009A394F /* bozo.h in Headers */,
+				22DC0133195053CA009A394F /* image_functions.h in Headers */,
+				2279421D19505558004D4B2B /* lua.hpp in Headers */,
+				22DC0131195053CA009A394F /* file_functions.h in Headers */,
+				2279421C19505558004D4B2B /* lua.h in Headers */,
+				2279421E19505558004D4B2B /* luaconf.h in Headers */,
+				2279421F19505558004D4B2B /* lualib.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC0620554660B00DB518D /* bozo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB914A08733D8E0010E9CD /* Build configuration list for PBXNativeTarget "bozo" */;
+			buildPhases = (
+				D2AAC0600554660B00DB518D /* Headers */,
+				D2AAC0610554660B00DB518D /* Sources */,
+				D289988505E68E00004EDB86 /* Frameworks */,
+				227353CC12953C3800DC6E15 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = bozo;
+			productName = ImageData;
+			productReference = D2AAC0630554660B00DB518D /* bozo.so */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = 1DEB914E08733D8E0010E9CD /* Build configuration list for PBXProject "bozo" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 08FB7794FE84155DC02AAC07 /* ImageData */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC0620554660B00DB518D /* bozo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC0610554660B00DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22DC0134195053CA009A394F /* image_functions.m in Sources */,
+				22DC0130195053CA009A394F /* bozo.m in Sources */,
+				22DC0132195053CA009A394F /* file_functions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB914B08733D8E0010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CONFIGURATION_BUILD_DIR = build;
+				COPY_PHASE_STRIP = NO;
+				DEPLOYMENT_LOCATION = YES;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				DSTROOT = /;
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = "";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				HEADER_SEARCH_PATHS = "";
+				INSTALL_GROUP = $GROUP;
+				INSTALL_OWNER = $USER;
+				PRODUCT_NAME = bozo;
+				SYMROOT = build;
+			};
+			name = Debug;
+		};
+		1DEB914C08733D8E0010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CONFIGURATION_BUILD_DIR = build;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEPLOYMENT_LOCATION = YES;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				DSTROOT = /;
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = "";
+				GCC_MODEL_TUNING = G5;
+				HEADER_SEARCH_PATHS = "lua/src/**";
+				INSTALL_GROUP = $GROUP;
+				INSTALL_OWNER = $USER;
+				PRODUCT_NAME = bozo;
+				SYMROOT = build;
+			};
+			name = Release;
+		};
+		1DEB914F08733D8E0010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				EXECUTABLE_EXTENSION = so;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_PATH = "";
+				MACH_O_TYPE = mh_bundle;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-undefined",
+					dynamic_lookup,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = bozo;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1DEB915008733D8E0010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				EXECUTABLE_EXTENSION = so;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_PATH = "";
+				MACH_O_TYPE = mh_bundle;
+				OTHER_LDFLAGS = (
+					"-undefined",
+					dynamic_lookup,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = ImageData;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB914A08733D8E0010E9CD /* Build configuration list for PBXNativeTarget "bozo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB914B08733D8E0010E9CD /* Debug */,
+				1DEB914C08733D8E0010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB914E08733D8E0010E9CD /* Build configuration list for PBXProject "bozo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB914F08733D8E0010E9CD /* Debug */,
+				1DEB915008733D8E0010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}
